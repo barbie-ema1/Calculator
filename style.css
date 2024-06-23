@@ -127,7 +127,7 @@
 @media (max-width:1108px) and (min-width:768px){
 
 #calc{
-  width: 42vw;
+  width: 30vw;
 }
 
 .resultbox{
@@ -136,7 +136,7 @@
 
 #input_box{
   margin-top: 2pc;
-  width: 40vw;
+  width: 30vw;
 }
 
 #input_box button{
@@ -144,8 +144,8 @@
   border: none;
   border-radius: 30%;
   cursor: pointer;
-  height: 50px;
-  width: 60px;
+  height: 45px;
+  width: 55px;
   margin-bottom: 8px;
   margin-left: 6px;
 }
@@ -170,7 +170,7 @@
 @media (min-width:375px) and (max-width:554px){
 
 #calc{
-  width: 90vw;
+  width: 50vw;
 }
 
 .resultbox{
@@ -179,18 +179,18 @@
 
 #input_box{
   margin-top: 2pc;
-  width: 80vw;
+  width: 40vw;
 }
 
 #input_box button{
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   border: none;
   border-radius: 30%;
   cursor: pointer;
   height: 55px;
   width: 65px;
   margin-bottom: 8px;
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
 
@@ -204,7 +204,8 @@
   }
 
 #calc{
-  width: 90vw;
+  width: 50vw;
+  height: fit-content;
 }
 
 .resultbox{
@@ -213,18 +214,18 @@
 
 #input_box{
   margin-top: 2pc;
-  width: 80vw;
+  width: 45vw;
 }
 
 #input_box button{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   border: none;
   border-radius: 30%;
   cursor: pointer;
-  height: 40px;
-  width: 55px;
+  height: 25px;
+  width: 35px;
   margin-bottom: 8px;
-  margin-left: 3px;
+  margin-left: 1px;
 }
 
 
