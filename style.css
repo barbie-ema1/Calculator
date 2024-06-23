@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Micro+5&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #calc {
+    background: #D1D8C5;
+    padding: 25px;
+    width: 32vw;
+    border-radius: 10px;
+  }
+
+  .resultbox{
+    border: 5px solid #686D76;
+    border-style: groove;
+    height: 15vh;
+    background-color: #C8CFA0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Silkscreen", sans-serif;
+  }
+
+  .resulttext{
+    height: 6.5vh;
+    text-align: right;
+    margin-right: 18px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    margin-top: 2px;
+  }
+
+  .input_display{
+    height: 6.5vh;
+    text-align: right;
+    margin-right: 2px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 6px;
+    padding: 10px 20px;
+    margin-bottom: 1pc;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    
+  }
+
+  
+
+
+  
+  
+
+
+  #input_box{
+    margin-top: 2pc;
+    width: 30vw;
+  }
+
+  #input_box button{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    height: 65px;
+    width: 85px;
+    margin-bottom: 8px;
+    margin-left: 6px;
+  }
+
+  #input_box button:hover{
+    cursor: pointer;
+  }
+
+.key-operate{
+    background-color: #577B8D;
+}
+
+.key-operate:hover{
+    background-color: #80B9AD;
+}
+
+.equal{
+    background-color: #FF7F3E;
+}
+
+.equal:hover{
+    background-color: #FFBF78;
+}
+
+@media (max-width:1024px) and (min-width:738px){
+
+  #calc{
+    width: 42vw;
+  }
+  #input_box{
+    margin-top: 2pc;
+    width: 38vw;
+  }
+
+
+}
+
+@media (max-width:1108px) and (min-width:768px){
+
+#calc{
+  width: 55vw;
+}
+
+#input_box{
+  margin-top: 2pc;
+  width: 50vw;
+}
+
+}
+
+
+@media(max-width:768px) and (min-width:554px){
+
+  .resultbox{
+    height: 20vh;
+  }
+
+}
+
+
+@media (min-width:375px) and (max-width:554px){
+
+#calc{
+  width: 90vw;
+}
+
+.resultbox{
+  height: 20vh;
+}
+
+#input_box{
+  margin-top: 2pc;
+  width: 80vw;
+}
+
+#input_box button{
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  height: 55px;
+  width: 65px;
+  margin-bottom: 8px;
+  margin-left: 6px;
+}
+
+
+
+}
+
+@media (min-width:320px) and (max-width:554px){
+
+  .resultbox{
+    height: 20vh;
+  }
+
+#calc{
+  width: 90vw;
+}
+
+.resultbox{
+  height: 20vh;
+}
+
+#input_box{
+  margin-top: 2pc;
+  width: 80vw;
+}
+
+#input_box button{
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  height: 40px;
+  width: 55px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+}
+
+
+}
