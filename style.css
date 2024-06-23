@@ -123,19 +123,23 @@
  @media (max-width:1024px) and (min-width:1108px){
 
   #calc{
-    max-width: 30vw;
+    width: 30vw;
+  }
+
+  .resultbox{
+    width: 226px;
   }
 
   #input_box{
-    max-width: 28vw;
+    width: 30vw;
   }
 
   #input_box button{
-    height: 40px;
-    width: 50px;
-    font-size: 20px;
-    margin-left: 2px;
-    padding: 5px 5px;
+    height: 55px;
+    width: 65px;
+    font-size: 1rem;
+    margin-left: 6px;
+    padding: 10px 10px;
   }
 
  }
@@ -145,15 +149,18 @@
 @media (max-width:1108px) and (min-width:768px){
 
 #calc{
-  width: 30vw;
+  width: 27vw;
 }
 
 .resultbox{
   height: 10vh;
+  width: 20vw;
 }
 
 #input_box{
   margin-top: 2pc;
+  margin-left: 0;
+  padding: 10px;
  
  
 }
@@ -176,9 +183,18 @@
 
 @media(max-width:768px) and (min-width:554px){
 
+ #calc{
+  width: 30vw;
+ } 
+  
   .resultbox{
     height: 18vh;
   }
+
+#input_box{
+  width: 28vw;
+
+}
 
 }
 
