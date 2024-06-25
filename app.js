@@ -124,7 +124,7 @@ function operate(operator, a, b) {
   switch (operator) {
     case '+':
       return add(a, b)
-    case '−':
+    case '-':
       return substract(a, b)
     case '×':
       return multiply(a, b)
